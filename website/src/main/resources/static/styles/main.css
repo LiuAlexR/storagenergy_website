@@ -1,0 +1,13 @@
+:root {
+  --primary-dark: 8, 9, 10;
+  --primary-light: 244, 250, 255;
+  --primary-accent: 78, 89, 140;
+  --dark-accent: 51, 59, 91;
+  --light-accent: 190, 195, 218;
+}
+body {
+    background-color: rgb(var(--primary-light));
+}
+html {
+    font-size: 16px;
+}

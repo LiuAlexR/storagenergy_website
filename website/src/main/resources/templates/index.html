@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Storagenergy Technologies</title>
+    <link rel="icon" type="image/svg+xml" th:href="@{images/logos/favicon.svg}" />
+    <link th:href="@{/styles/main.css}" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link th:href="@{/styles/navbar.css}" rel="stylesheet" />
+    <link th:href="@{/styles/index.css}" rel="stylesheet" />
+    
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <img th:src="@{images/logos/logo.svg}" id="logo_img">
+        </div>
+        <ul id="bar_as_list">
+            <li class="nav_bar_item">
+                <a class="nav_bar_item_link" href="/">
+                    Home
+                </a>
+            </li>
+            <li class="nav_bar_item">
+                <div class="drop_down">
+                    <a class="nav_bar_item_link drop_down_link" href="/solutions">
+                        Solutions
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="drop_down_wrapper">
+                        <a class="drop_down_content">
+                            Lorem Ipsum
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav_bar_item">
+                <div class="drop_down">
+                    <a class="nav_bar_item_link drop_down_link" href="/solutions">
+                        Development
+                        <i class="fa fa-caret-down"></i>
+                    </a>
+                    <div class="drop_down_wrapper">
+                        <a class="drop_down_content">
+                            Lorem Ipsum
+                        </a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav_bar_item">
+                <a class="nav_bar_item_link" href="/about">
+                    About Us
+                </a>
+            </li>
+            <li class="nav_bar_item">
+               <a class="nav_bar_item_link" href="/">
+                    News
+                </a>
+            </li>
+            <li class="nav_bar_item">
+               <a class="nav_bar_item_link" href="/">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h1 id="test">This is a test</h1>
+    </div>
+</body>
+</html>
