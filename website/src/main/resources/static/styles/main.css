@@ -1,9 +1,10 @@
 :root {
-  --primary-dark: 8, 9, 10;
-  --primary-light: 244, 250, 255;
-  --primary-accent: 78, 89, 140;
-  --dark-accent: 51, 59, 91;
-  --light-accent: 190, 195, 218;
+  --primary-dark: 3, 0, 39;
+  --primary-light: 255, 255, 255;
+  --primary-accent: 155, 229, 100;
+  --dark-accent: 55, 105, 18;
+  --light-accent: 177, 234, 133;
+  --logo-color: 192, 79, 21;
 }
 body {
     background-color: rgb(var(--primary-light));
